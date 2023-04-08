@@ -1,5 +1,5 @@
 # About
-This script will take a single file as input and change the file so any occurrences of $this->$var() is replaced with $this->{var}() for PHP 7 compatibility.
+This script will take a single file as input and change the file so any occurrences like $this->$var() is replaced with $this->{$var}() for PHP 7 compatibility.
 The purpose of running this script will be to replace all such occurrences if your php-files have a lot of them and you are required to update the code to be compatible with PHP 7.
 
 If you don't know what you're doing or are unsure about any of the expressions used here, then don't run it.
