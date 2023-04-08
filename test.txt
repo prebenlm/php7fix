@@ -3,5 +3,5 @@ if ( $class->$var( $this->_member ) )
 if ( method()->$var( $this->_member ) )
 if ( method()->$var['key']( $this->_member ) )
 if( $() ) # should not change
+$obj->$key = $val; # should not change
 if( $[]()) # should not change
-$obj->$key = $val;
