@@ -1,0 +1,4 @@
+if ( $class->$var['key']( $this->_member ) )
+if ( $class->$var( $this->_member ) )
+if ( method()->$var( $this->_member ) )
+if ( method()->$var['key']( $this->_member ) )
