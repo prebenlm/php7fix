@@ -1,0 +1,7 @@
+Simple command examples: 
+
+# Will run on all php-files in the folder and any subdirectories
+find . -name '*.php' -exec sh fixmethod "{}" \; > git.diff
+
+# Will do the same, but not look in the folders cache and hooks
+find . -type d \( -path ./cache -o -path ./hooks \) -prune -o -name '*.php' -exec sh fixmethod "{}" \; > git.diff
